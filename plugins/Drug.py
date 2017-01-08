@@ -4,7 +4,7 @@ from cloudbot import hook
 
 
 @hook.command("drug","pill")
-def lurve(text, nick, message):
+def drug(text, nick, message):
 	"""Gives a User a drug <user>"""
 	target = text.strip()
 
@@ -13,7 +13,7 @@ def lurve(text, nick, message):
 	drug = [
 		"{N} Hands {T} A bottle of Vicodin",
 		"{N} Hands {T} A bag of OxyContin",
-		"{N} Hands {T} A Moriphine Drip"
+		"{N} Hands {T} A Moriphine Drip",
 		"{N} Hands {T} Some Fentanyl",
 		"{N} Hands {T} A Bottle of Codeine"
             ];
